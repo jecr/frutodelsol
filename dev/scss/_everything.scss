@@ -137,14 +137,15 @@ img { border: 0; }
 
 		.gallery {
 			position: absolute;
-			width: 447px;
+			width: 747px;
 			height: 130px;
 			top: 24px;
 			left: 60px;
+			@include user-select(none);
 		}
 
 		.gal_wrap {
-			width: 420px;
+			width: 720px;
 			overflow: hidden;
 		}
 
@@ -174,14 +175,14 @@ img { border: 0; }
 			position: absolute;
 			width: 300px;
 			height: 70px;
-			left: 127px;
-			top: 304px;
+			left: 277px;
+			top: 334px;
 			background: url(../img/slogan.png);
 		}
 
 		.cita {
 			position: absolute;
-			width: 334px;
+			width: 634px;
 			height: 63px;
 			top: 216px;
 			left: 109px;
@@ -200,8 +201,16 @@ img { border: 0; }
 			.frase {
 				font-family: Helvetica, Arial, sans-serif;
 				color: #98a46b;
-				font-size: 13px;
+				font-size: 15px;
 				font-weight: normal;
+				line-height: 150%;
+				strong {
+					font-size: 22px;
+				}
+				span {
+					font-weight: bolder;
+					font-size: 18px;
+				}
 			}
 
 	.noti {
