@@ -11,8 +11,8 @@
 		Nuestro invaluable Patrimonio Cultural se esconde en el corazón de esta asombrosa planta llamada Agave, la cual solo un maestro Mezcalero sabrá revelar su secreto convirtiéndola en un exquisito “Fruto del Sol”.</span>
 		<br><br>
 		<span class="area_title">EXPRESIONES DE SABOR</span><br>
-		<span class="area_text">“Expresiones de Sabor” es una empresa 100% mexicana, que en sus Mezcales destaca la devoción, respeto y trato justo con los productores arte-sanos Oaxaqueños que por generaciones han elaborado este maravilloso producto, conservando la tradición para México y un regalo para el Mundo entero.
-		Hablar de Expresiones de Sabor, es hablar de un comercio legitimo con una bebida ancestral de alta calidad, 100% natural y genuina, la cual cuenta con Denominación de Origen (DOC) y que día a día sigue adquiriendo reconoci-mientos en todo el mundo. 
+		<span class="area_text">“Expresiones de Sabor” es una empresa 100% mexicana, que en sus Mezcales destaca la devoción, respeto y trato justo con los productores artesanos Oaxaqueños que por generaciones han elaborado este maravilloso producto, conservando la tradición para México y un regalo para el mundo entero.
+		Hablar de Expresiones de Sabor, es hablar de un comercio legítimo con una bebida ancestral de alta calidad, 100% natural y genuina, la cual cuenta con denominación de Origen (DOC) y que día a día sigue adquiriendo reconocimientos en todo el mundo. 
 		<br><br>
 		Por todo esto, estamos orgullosos de poder comercializar la bebida más mexicana y tradicional por excelencia.</span>
 	</div>
