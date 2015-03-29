@@ -101,6 +101,7 @@ img { border: 0; }
 		width: 160px;
 		height: 385px;
 		background: url(../img/mezcal_img.jpg) no-repeat;
+		background-size: 100%;
 		top: 230px;
 		left: 30px;
 	}
