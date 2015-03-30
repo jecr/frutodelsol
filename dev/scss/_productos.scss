@@ -32,24 +32,33 @@
 	cursor: pointer;
 }
 
-.more-p1 {
+.more-p1, .more-p2 {
 	position: absolute;
-	width: 26px;
-	height: 26px;
+	width: 26px; height: 26px;
+	top: 160px;
+	cursor: pointer;
+	padding: 2px;
+	border: 1px solid #98a46b;
+	@include transition(all .3s);
+	@include box-shadow(.5px .5px 0 #98a46b, 1px 1px 0 #98a46b, 1.5px 1.5px 0 #98a46b, 2px 2px 0 #98a46b, 2.5px 2.5px 0 #98a46b, 3px 3px 0 #98a46b);
+	&:hover {
+		border-color: #ffe200;
+		@include box-shadow(.5px .5px 0 #ffe200, 1px 1px 0 #ffe200, 1.5px 1.5px 0 #ffe200, 2px 2px 0 #ffe200, 2.5px 2.5px 0 #ffe200, 3px 3px 0 #ffe200);
+	}
+}
+
+.more-p1 {
 	top: 160px;
 	left: 280px;
 	background: url(../img/plus.png) no-repeat;
-	cursor: pointer;
+	background-position: 2px 2px;
 }
 
 .more-p2 {
-	position: absolute;
-	width: 26px;
-	height: 26px;
 	top: 160px;
 	right: 255px;
 	background: url(../img/plus.png) no-repeat;
-	cursor: pointer;
+	background-position: 2px 2px;
 }
 
 .inf-mezcalblanco {
