@@ -46,12 +46,12 @@ $(window).load(function(){
 		$('.inf-mezcalreposado').fadeToggle(500);
 	});
 
-	$('.marca').click(function(){
-		$('.estamos').fadeOut(250);
-		$('.inf_tec').fadeToggle(500);
-	});
-
-	$('.inf_tec').click(function(){
-		$('.inf_tec').fadeOut(500);
-		$('.estamos').fadeIn(250);
-	});
+	var intervalo = setInterval(function () { $('.estamos').stop().fadeToggle(500); $('.inf_tec').stop().fadeToggle(500); }, 4000);
+	$('.demientras').hover(
+		function(){
+			clearInterval( intervalo );
+		},
+		function(){
+			intervalo = setInterval(function () { $('.estamos').stop().fadeToggle(500); $('.inf_tec').stop().fadeToggle(500); }, 4000);
+		}
+	);
