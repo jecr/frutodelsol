@@ -2,6 +2,9 @@ body { margin: 0; }
 
 img { border: 0; }
 
+$yellow: #ffe200;
+$green: #98a46b;
+
 .white {
 	position: absolute;
 	width: 100%;
@@ -24,7 +27,7 @@ img { border: 0; }
 	height: 42px;
 	top: 70px;
 	right: 0;
-	border-bottom: 3px solid #ffe200;
+	border-bottom: 3px solid $yellow;
 }
 
 .content {
@@ -51,7 +54,7 @@ img { border: 0; }
 		height: 42px;
 		top: 70px;
 		left: 241px;
-		border-bottom: 3px solid #ffe200;
+		border-bottom: 3px solid $yellow;
 	}
 
 		ul {
@@ -79,11 +82,11 @@ img { border: 0; }
 			}
 
 				.actual {
-					background: #ffe200;
+					background: $yellow;
 				}
 
 				li:hover {
-					background: #ffe200;
+					background: $yellow;
 				}
 
 		.fb,.tw {
@@ -200,7 +203,7 @@ img { border: 0; }
 
 			.frase {
 				font-family: Helvetica, Arial, sans-serif;
-				color: #98a46b;
+				color: $green;
 				font-size: 15px;
 				font-weight: normal;
 				line-height: 150%;
@@ -216,7 +219,7 @@ img { border: 0; }
 		height: 400px;
 		left: 741px;
 		top: 181px;
-		background: #98a46b;
+		background: $green;
 		font-family: Helvetica, Arial, sans-serif;
 	}
 
@@ -224,7 +227,7 @@ img { border: 0; }
 			position: absolute;
 			width: 100%;
 			height: 36px;
-			background: #ffe200;
+			background: $yellow;
 			text-align: center;
 		}
 
@@ -245,7 +248,7 @@ img { border: 0; }
 			font-weight: 200;
 			font-size: 20px;
 			color: #fff;
-			border-bottom: 2px solid #ffe200;
+			border-bottom: 2px solid $yellow;
 		}
 
 		.noti_text {
@@ -289,7 +292,7 @@ img { border: 0; }
 	height: 400px;
 	left: 241px;
 	top: 181px;
-	background: #98a46b;
+	background: $green;
 }
 
 	.text_area_back {
@@ -298,7 +301,7 @@ img { border: 0; }
 		height: 400px;
 		right: 0;
 		top: 181px;
-		background: #98a46b;
+		background: $green;
 	}
 
 	.area_int {

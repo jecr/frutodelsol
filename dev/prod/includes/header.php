@@ -21,6 +21,6 @@
 						<a href="productos.php"><li>PRODUCTOS</li></a>
 						<!-- <a href=""><li>DÓNDE COMPRAR</li></a>
 						<a href=""><li>NOTICIAS</li></a> -->
-						<!-- <a href=""><li>CONTACTO</li></a> -->
+						<a href="contacto.php"><li>CONTACTO</li></a>
 					</ul>
 				</div>

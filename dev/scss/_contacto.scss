@@ -1,0 +1,78 @@
+.content_area {
+	position: relative;
+	float: left;
+	margin: 150px 0 0 240px;
+	/* background: lighten($yellow, 30%); */
+	width: 750px;
+	background: url(../img/mezcal_img.jpg) no-repeat;
+	background-position: 90% 100%;
+	background-size: 23%;
+}
+
+.contact_form {
+	border: 20px solid $yellow;
+	width: 480px;
+	padding: 30px;
+	font-weight: bolder;
+	font-size: 15px;
+	margin-bottom: 50px;
+	@include box-sizing(border-box);
+	strong {
+		color: $yellow;
+	}
+	table {
+		width: 100%;
+	}
+	textarea {
+		margin-top: 30px;
+		resize: none;
+		height: 200px;
+	}
+	input {
+		height: 30px;
+	}
+	input, textarea {
+		width: 100%;
+		padding: 0;
+		border: 0;
+	}
+	textarea, input {
+		border: 1px solid $yellow;
+		font-weight: lighter;
+	}
+	tr:nth-of-type(1) {
+		.rightie, .leftie {
+			padding-bottom: 15px;
+		}
+	}
+	.rightie {
+		text-align: right;
+		width: 60%;
+	}
+	.leftie {
+		text-align: right;
+		padding-right: 15px;
+	}
+	* {
+	  @include input-placeholder {
+	    color: #000;
+	    font-weight: normal;
+	    padding: 40px 30px;
+	    line-height: 140%;
+	  }
+	}
+}
+
+#send {
+	width: 30%;
+	background: $green;
+	color: #fff;
+	margin-left: 35%;
+	border: none;
+	margin-top: 30px;
+	@include transition(all 0.3s);
+	&:hover {
+		background: $yellow;
+		color: $green;
+	}
+}

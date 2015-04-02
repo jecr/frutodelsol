@@ -38,12 +38,12 @@
 	top: 160px;
 	cursor: pointer;
 	padding: 2px;
-	border: 1px solid #98a46b;
+	border: 1px solid $green;
 	@include transition(all .3s);
-	@include box-shadow(.5px .5px 0 #98a46b, 1px 1px 0 #98a46b, 1.5px 1.5px 0 #98a46b, 2px 2px 0 #98a46b, 2.5px 2.5px 0 #98a46b, 3px 3px 0 #98a46b);
+	@include box-shadow(.5px .5px 0 $green, 1px 1px 0 $green, 1.5px 1.5px 0 $green, 2px 2px 0 $green, 2.5px 2.5px 0 $green, 3px 3px 0 $green);
 	&:hover {
-		border-color: #ffe200;
-		@include box-shadow(.5px .5px 0 #ffe200, 1px 1px 0 #ffe200, 1.5px 1.5px 0 #ffe200, 2px 2px 0 #ffe200, 2.5px 2.5px 0 #ffe200, 3px 3px 0 #ffe200);
+		border-color: $yellow;
+		@include box-shadow(.5px .5px 0 $yellow, 1px 1px 0 $yellow, 1.5px 1.5px 0 $yellow, 2px 2px 0 $yellow, 2.5px 2.5px 0 $yellow, 3px 3px 0 $yellow);
 	}
 }
 
