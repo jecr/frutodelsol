@@ -24,72 +24,62 @@
 .marca {
 	position: absolute;
 	width: 185px;
-	height: 185px;
-	background: url(../img/marca.png) no-repeat;
-	background-size: 100% 100%;
-	top: 330px;
+	height: 87px;
+	background: url(../img/marca.jpg) no-repeat;
+	background-size: 100%;
+	top: 390px;
 	left: 430px;
-	cursor: pointer;
 }
 
 .more-p1, .more-p2 {
 	position: absolute;
-	width: 26px; height: 26px;
+	width: 31px; height: 31px;
 	top: 160px;
 	cursor: pointer;
-	padding: 2px;
-	border: 1px solid $green;
+	background: url(../img/b_1.jpg) no-repeat;
+	background-size: 100%;
 	@include transition(all .3s);
-	@include box-shadow(.5px .5px 0 $green, 1px 1px 0 $green, 1.5px 1.5px 0 $green, 2px 2px 0 $green, 2.5px 2.5px 0 $green, 3px 3px 0 $green);
 	&:hover {
-		border-color: $yellow;
-		@include box-shadow(.5px .5px 0 $yellow, 1px 1px 0 $yellow, 1.5px 1.5px 0 $yellow, 2px 2px 0 $yellow, 2.5px 2.5px 0 $yellow, 3px 3px 0 $yellow);
+		background: url(../img/b_2.jpg) no-repeat;
+		background-size: 100%;
 	}
 }
 
 .more-p1 {
-	top: 160px;
 	left: 280px;
-	background: url(../img/plus.png) no-repeat;
-	background-position: 2px 2px;
 }
 
 .more-p2 {
-	top: 160px;
-	right: 255px;
-	background: url(../img/plus.png) no-repeat;
-	background-position: 2px 2px;
+	right: 258px;
+}
+
+.inf-mezcalblanco, .inf-mezcalreposado {
+	position: absolute;
+	width: 200px;
+	height: 180px;
+	font-family: helvetica;
+	font-size: 16px;
+	display: none;
 }
 
 .inf-mezcalblanco {
-	position: absolute;
-	width: 210px;
-	height: 180px;
+	text-align: left;
 	top: 140px;
 	left: 320px;
-	font-family: helvetica;
-	font-size: 15px;
-	display: none;
 }
 
 
 .inf-mezcalreposado {
-	position: absolute;
-	width: 210px;
-	height: 180px;
+	text-align: right;
 	top: 140px;
 	right: 300px;
-	font-family: helvetica;
-	font-size: 15px;
-	text-align: right;
-	display: none;
 }
 
 .cabeza-mezcal {
 	position: absolute;
 	font-family: helvetica;
 	font-weight: bolder;
-	font-size: 25px;
+	font-size: 23px;
 }
 
 .inf_tec {
@@ -101,7 +91,6 @@
 	background: #fff url(../img/inf_tec.png) no-repeat;
 	background-size: 100% 100%;
 	display: none;
-	cursor: pointer;
 }
 
 .estamos {

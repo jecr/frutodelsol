@@ -44,7 +44,7 @@
 	<div class="cita">
 		<div class="com1"></div>
 		<div class="com2"></div>
-		<span class="frase"><strong>N</strong>uestro invaluable Patrimonio Cultural se esconde en el corazón de esta asombrosa planta llamada Agave, la cual solo un maestro Mezcalero sabrá revelar su secreto convirtiéndola en un exquisito <span>“Fruto del Sol”</span></span>
+		<span class="frase">Nuestro invaluable Patrimonio Cultural se esconde en el corazón de esta asombrosa planta llamada Agave, de la cual sólo un maestro mezcalero sabrá revelar su secreto, convirtiéndola en un exquisito <span>“Fruto del Sol”</span></span>
 	</div>
 	<div class="slogan"></div>
 </div>

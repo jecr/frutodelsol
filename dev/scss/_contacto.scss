@@ -73,6 +73,6 @@
 	@include transition(all 0.3s);
 	&:hover {
 		background: $yellow;
-		color: $green;
+		color: #fff;
 	}
 }

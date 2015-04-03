@@ -87,7 +87,9 @@
 			    </tr> -->
 			    <tr>
 			        <td colspan="2">
-			            <textarea name="coment" id="coment" required placeholder="Envíanos tus comentarios o contáctanos para mayor información sobre ventas y distribución. / Send us your comments or contact us for more information on sales and distribution."></textarea>
+			            <textarea name="coment" id="coment" required placeholder="Envíanos tus comentarios o contáctanos para mayor información sobre ventas y distribución.
+/
+Send us your comments or contact us for more information on sales and distribution."></textarea>
 			        </td>
 			    </tr> 
 			    <tr style="display: none;">
