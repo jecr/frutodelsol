@@ -1,4 +1,7 @@
-<?php include 'includes/header.php'; ?>
+<?php
+	$thisPage = "productos";
+	include 'includes/header.php';
+?>
 <div class="botella_1"></div>
 <div class="botella_2"></div>
 <div class="more-p1"></div>

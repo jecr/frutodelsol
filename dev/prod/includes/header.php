@@ -17,10 +17,12 @@
 				</div>
 				<div class="menu">
 					<ul>
-						<a href="quienes.php"><li>QUIÉNES SOMOS</li></a>
-						<a href="productos.php"><li>PRODUCTOS</li></a>
+						<?php if ( isset($thisPage) ) { ?>
+						<a href="quienes.php"><li <?php if ( $thisPage == "quienes" ) { echo 'class="active"'; } ?> >QUIÉNES SOMOS</li></a>
+						<a href="productos.php"><li <?php if ( $thisPage == "productos" ) { echo 'class="active"'; } ?> >PRODUCTOS</li></a>
 						<!-- <a href=""><li>DÓNDE COMPRAR</li></a>
 						<a href=""><li>NOTICIAS</li></a> -->
-						<a href="contacto.php"><li>CONTACTO</li></a>
+						<a href="contacto.php"><li <?php if ( $thisPage == "contacto" ) { echo 'class="active"'; } ?> >CONTACTO</li></a>
+						<?php } ?>
 					</ul>
 				</div>

@@ -1,7 +1,7 @@
 <?php
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	    $name = trim($_POST["nombre"]);
-	    //$phone = trim($_POST["tel"]);
+	    $phone = trim($_POST["tel"]);
 	    $email = trim($_POST["email"]);
 	    $message = trim($_POST["coment"]);
 
@@ -32,7 +32,7 @@
 
 	    $email_body = "";
 	    $email_body = $email_body . "Nombre: " . $name . "<br>";
-	    //$email_body = $email_body . "Teléfono: " . $phone . "<br>";
+	    $email_body = $email_body . "Teléfono: " . $phone . "<br>";
 	    $email_body = $email_body . "Correo: " . $email . "<br>";
 	    $email_body = $email_body . "Comentarios: " . $message;
 
@@ -50,6 +50,8 @@
 	    header("Location: contacto.php?status=thanks");
 	    exit;
 	}
+
+	$thisPage = "contacto";
 
 	include 'includes/header.php';
 ?>
@@ -77,14 +79,14 @@
 			            <input type="text" name="email" id="email" required>
 			        </td>
 			    </tr>
-			    <!-- <tr>
+			    <tr>
 			        <th>
-			            <label for="tel">Teléfono / Phone Number</label>
+			            <label for="tel">Teléfono <strong>/</strong> Telephone</label>
 			        </th>
 			        <td>
 			            <input type="text" name="tel" id="tel">
 			        </td>
-			    </tr> -->
+			    </tr>
 			    <tr>
 			        <td colspan="2">
 			            <textarea name="coment" id="coment" required placeholder="Envíanos tus comentarios o contáctanos para mayor información sobre ventas y distribución.

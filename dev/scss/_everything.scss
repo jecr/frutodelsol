@@ -75,17 +75,14 @@ $green: #98a46b;
 				font-weight: bold;
 				cursor: pointer;
 				padding: 14px 13.5px;
-				transition: background 0.5s;
-				-webkit-transition: background 0.5s;
-				-moz-transition: background 0.5s;
-				-o-transition: background 0.5s;
+				@include transition(all 0.3s);
 			}
 
 				.actual {
 					background: $yellow;
 				}
 
-				li:hover {
+				li:hover, .active {
 					background: $yellow;
 				}
 

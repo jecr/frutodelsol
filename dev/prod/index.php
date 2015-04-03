@@ -1,4 +1,7 @@
-<?php include 'includes/header.php'; ?>
+<?php
+	$thisPage = "inicio";
+	include 'includes/header.php';
+?>
 <div class="botellas"></div>
 <div class="evite">
 	<span class="evitar">EVITE EL EXCESO</span><br>
