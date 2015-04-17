@@ -37,8 +37,8 @@
 	    $email_body = $email_body . "Comentarios: " . $message;
 
 	    $mail->SetFrom($email, $name);
-	    $address = "sinnerei@gmail.com";
-	    $mail->AddAddress($address, "Prueba");
+	    $address = "awuest69@hotmail.com";
+	    $mail->AddAddress($address, "Fruto del Sol");
 	    $mail->Subject    = "Fruto del Sol, Formulario Web | " . $name;
 	    $mail->MsgHTML($email_body);
 
@@ -80,10 +80,10 @@
 			        </td>
 			    </tr>
 			    <tr>
-			        <th>
+			        <th class="leftie">
 			            <label for="tel">Teléfono <strong>/</strong> Telephone</label>
 			        </th>
-			        <td>
+			        <td class="rightie">
 			            <input type="text" name="tel" id="tel">
 			        </td>
 			    </tr>
