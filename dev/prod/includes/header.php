@@ -18,6 +18,7 @@
 				<div class="menu">
 					<ul>
 						<?php if ( isset($thisPage) ) { ?>
+						<a href="index.php"><li <?php if ( $thisPage == "inicio" ) { echo 'class="active"'; } ?> >INICIO</li></a>
 						<a href="quienes.php"><li <?php if ( $thisPage == "quienes" ) { echo 'class="active"'; } ?> >QUIÉNES SOMOS</li></a>
 						<a href="productos.php"><li <?php if ( $thisPage == "productos" ) { echo 'class="active"'; } ?> >PRODUCTOS</li></a>
 						<!-- <a href=""><li>DÓNDE COMPRAR</li></a>
