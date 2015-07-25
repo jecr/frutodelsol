@@ -5,6 +5,9 @@
 		<title>Mezcal Fruto del Sol</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<meta name="description" content="“Expresiones de Sabor” es una empresa 100% mexicana, que en sus Mezcales destaca la devoción, respeto y trato justo con los productores artesanos Oaxaqueños que por generaciones han elaborado este maravilloso producto, conservando la tradición para México y un regalo para el mundo entero.">
+		<meta name="keywords" content="Expresiones de Sabor, Oaxaca, Mezcal, Fruto del Sol">
+		<meta name="author" content="jorge.ecro@gmail.com">
 	</head>
 	<body>
 		<div class="white"></div>

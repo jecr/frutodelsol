@@ -62,7 +62,7 @@
 			entre Pino Suárez y Av. Juárez
 		</div>
 		<div class="store">
-			<a href="http://laspencas.mx/"><img src="img/pencas.png" alt="Las Pencas"><br>
+			<a href="http://laspencas.mx/" target="blank"><img src="img/pencas.png" alt="Las Pencas"><br>
 			<strong>Las Pencas</strong><br>
 			www.laspencas.mx</a>
 		</div>
