@@ -11,42 +11,61 @@
 	<!-- <div class="cita">
 		<span class="frase">Nuestro invaluable Patrimonio Cultural se esconde en el corazón de esta asombrosa planta llamada Agave, de la cual sólo un maestro mezcalero sabrá revelar su secreto, convirtiéndola en un exquisito <span>“Fruto del Sol”</span></span>
 	</div> -->
-	<div class="slogan"></div>
-	<div class="gallery">
-		<div class="gal_wrap">
-			<div class="int_wrap">
-				<a href="img/fotos/1.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
-				  <img src="img/1.png" alt="" />
-				</a>
-				<a href="img/fotos/2.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
-				  <img src="img/2.png" alt="" />
-				</a>
-				<a href="img/fotos/3.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
-				  <img src="img/3.png" alt="" />
-				</a>
-				<a href="img/fotos/4.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
-				  <img src="img/4.png" alt="" />
-				</a>
-				<a href="img/fotos/5.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
-				  <img src="img/5.png" alt="" />
-				</a>
-				<a href="img/fotos/6.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
-				  <img src="img/6.png" alt="" />
-				</a>
-				<a href="img/fotos/7.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
-				  <img src="img/7.png" alt="" />
-				</a>
-				<a href="img/fotos/8.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
-				  <img src="img/8.png" alt="" />
-				</a>
-				<a href="img/fotos/9.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
-				  <img src="img/9.png" alt="" />
-				</a>
-				
+	<div class="clearfix">
+		<div class="slogan"></div>
+		<div class="gallery">
+			<div class="gal_wrap">
+				<div class="int_wrap">
+					<a href="img/fotos/1.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+					  <img src="img/1.png" alt="" />
+					</a>
+					<a href="img/fotos/2.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+					  <img src="img/2.png" alt="" />
+					</a>
+					<a href="img/fotos/3.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+					  <img src="img/3.png" alt="" />
+					</a>
+					<a href="img/fotos/4.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+					  <img src="img/4.png" alt="" />
+					</a>
+					<a href="img/fotos/5.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+					  <img src="img/5.png" alt="" />
+					</a>
+					<a href="img/fotos/6.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+					  <img src="img/6.png" alt="" />
+					</a>
+					<a href="img/fotos/7.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+					  <img src="img/7.png" alt="" />
+					</a>
+					<a href="img/fotos/8.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+					  <img src="img/8.png" alt="" />
+					</a>
+					<a href="img/fotos/9.jpg" class="fancybox-thumbs" data-fancybox-group="thumb">
+					  <img src="img/9.png" alt="" />
+					</a>
+					
+				</div>
 			</div>
+			<div class="right"></div>
+			<div class="left"></div>
 		</div>
-		<div class="right"></div>
-		<div class="left"></div>
+	</div>
+
+	<div class="pventa clearfix">
+		<div class="titl">PUNTOS DE VENTA</div>
+	</div>
+	<div class="clearfix">
+		<div class="store">
+			<img src="img/lasquince.png" alt="Las Quince Letras"><br>
+			<strong>Restaurante “Las Quince Letras”</strong><br>
+			Calle abasolo #300,<br>
+			entre Pino Suárez y Av. Juárez
+		</div>
+		<div class="store">
+			<a href="http://laspencas.mx/"><img src="img/pencas.png" alt="Las Pencas"><br>
+			<strong>Las Pencas</strong><br>
+			www.laspencas.mx</a>
+		</div>
 	</div>
 </div>
 <!-- <div class="noti">

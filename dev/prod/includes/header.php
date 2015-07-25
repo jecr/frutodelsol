@@ -10,6 +10,7 @@
 		<div class="white"></div>
 		<div class="main">
 			<div class="yllw"></div>
+			<div class="yllw-ni"></div>
 			<div class="content">
 				<a href="index.php"><div class="logo"></div></a>
 				<div class="yllw">

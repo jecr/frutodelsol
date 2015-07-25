@@ -21,14 +21,22 @@ $green: #98a46b;
 	min-height: 675px;
 }
 
-.yllw {
+.yllw, .yllw-ni {
 	position: absolute;
 	width: 549px;
 	height: 42px;
-	top: 70px;
-	right: 0;
 	border-bottom: 3px solid $yellow;
 }
+
+.yllw {
+	top: 70px;
+	right: 0;
+}
+
+	.yllw-ni {
+		top: 452px;
+		right: 0;
+	}
 
 .content {
 	position: absolute;
@@ -182,6 +190,33 @@ $green: #98a46b;
 			background-size: 100%;
 		}
 
+// Añadido, puntos de venta
+
+.pventa {
+	border-bottom: 3px solid $yellow;
+	margin-top: 20px;
+	.titl {
+		float: left;
+		font-size: 13px;
+		font-weight: bolder;
+		background: $yellow;
+		padding: 14px 13.5px;
+	}
+}
+.store {
+	float: left;
+	text-align: center;
+	img {
+		border-bottom: 2px solid $yellow;
+		margin: 15px 0 10px 0;
+		padding-bottom: 5px;
+	}
+	&:nth-of-type(2){
+		margin-left: 50px;
+	}
+}
+
+
 		/* .cita {
 			position: absolute;
 			width: 634px;
@@ -312,3 +347,18 @@ $green: #98a46b;
 			font-weight: 100;
 			font-size: 12px;
 		}
+
+/* Clearfix */
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
