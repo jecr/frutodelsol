@@ -8,6 +8,10 @@
 	<span class="nocivo">EL ABUSO EN EL CONSUMO DE ESTE PRODUCTO ES NOCIVO PARA LA SALUD</span>
 </div>
 <div class="index_cont">
+	<!-- <div class="cita">
+		<span class="frase">Nuestro invaluable Patrimonio Cultural se esconde en el corazón de esta asombrosa planta llamada Agave, de la cual sólo un maestro mezcalero sabrá revelar su secreto, convirtiéndola en un exquisito <span>“Fruto del Sol”</span></span>
+	</div> -->
+	<div class="slogan"></div>
 	<div class="gallery">
 		<div class="gal_wrap">
 			<div class="int_wrap">
@@ -44,12 +48,6 @@
 		<div class="right"></div>
 		<div class="left"></div>
 	</div>
-	<div class="cita">
-		<div class="com1"></div>
-		<div class="com2"></div>
-		<span class="frase">Nuestro invaluable Patrimonio Cultural se esconde en el corazón de esta asombrosa planta llamada Agave, de la cual sólo un maestro mezcalero sabrá revelar su secreto, convirtiéndola en un exquisito <span>“Fruto del Sol”</span></span>
-	</div>
-	<div class="slogan"></div>
 </div>
 <!-- <div class="noti">
 	<div class="noti_header"><span class="header_text">NOTICIAS</span></div>

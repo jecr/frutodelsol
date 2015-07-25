@@ -88,13 +88,14 @@ $green: #98a46b;
 
 		.fb,.tw {
 			position: absolute;
-			top: 19px;
+			top: 5px;
 			cursor: pointer;
+			color: $yellow;
+			font-size: 30px;
 		}
 
-		.fb { left: 383px; }
-
-		.tw { left: 468px; }
+		.fb { right: 50px; }
+		.tw { right: 150px; }
 
 	.botellas {
 		position: absolute;
@@ -129,23 +130,25 @@ $green: #98a46b;
 
 	.index_cont {
 		position: absolute;
-		width: 550px;
-		height: 400px;
+		width: 750px;
 		top: 181px;
-		left: 192px;
+		left: 240px;
 	}
 
+		.slogan, .gallery {
+			float: left;
+			position: relative;
+		}
+
 		.gallery {
-			position: absolute;
-			width: 747px;
-			height: 130px;
-			top: 24px;
-			left: 60px;
+			width: 250px;
+			height: 250px;
+			margin-left: 50px;
 			@include user-select(none);
 		}
 
 		.gal_wrap {
-			width: 720px;
+			width: 230px;
 			overflow: hidden;
 		}
 
@@ -167,38 +170,29 @@ $green: #98a46b;
 					cursor: pointer;
 				}
 
-				.left { background: url(../img/left.png) no-repeat; top: 47px; }
-				.right { background: url(../img/right.png) no-repeat; top: 68px; }
+				.left { background: url(../img/left.png) no-repeat; top: 50+47px; }
+				.right { background: url(../img/right.png) no-repeat; top: 50+68px; }
 
 
 		.slogan {
-			position: absolute;
-			width: 300px;
-			height: 70px;
-			left: 277px;
-			top: 334px;
+			width: 450px;
+			height: 105px;
+			margin-top: 50px;
 			background: url(../img/slogan.png);
+			background-size: 100%;
 		}
 
-		.cita {
+		/* .cita {
 			position: absolute;
 			width: 634px;
 			height: 63px;
 			top: 216px;
 			left: 109px;
 			text-align: justify;
-		}
+		} */
 
-			.com1,.com2 {
-				position: absolute;
-				width: 24px;
-				height: 25px;
-			}
 
-			.com1 { background: url(../img/com1.png) no-repeat; left: -35px; top: -5px; }
-			.com2 { background: url(../img/com2.png) no-repeat; right: -35px; bottom: -10px }
-
-			.frase {
+			/* .frase {
 				font-family: Helvetica, Arial, sans-serif;
 				color: #000;
 				font-size: 15px;
@@ -208,7 +202,7 @@ $green: #98a46b;
 					font-weight: bolder;
 					font-size: 18px;
 				}
-			}
+			} */
 
 	.noti {
 		position: absolute;

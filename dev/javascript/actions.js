@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var ancho = 144*4;
+	var ancho = 244.5;
 	var movi = 0;
 	$('.left').on('click',function(){
 		if (movi < 0) {
@@ -10,7 +10,7 @@ $(document).ready(function(){
 		};
 	});
 	$('.right').on('click',function(){
-		if (movi > -570) {
+		if (movi > -1956) {
 			movi = movi - ancho;
 			$('.int_wrap').animate({
 				marginLeft: movi
