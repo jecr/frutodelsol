@@ -1,4 +1,5 @@
 			</div>
+			<div class="yllw-ni" <?php if ($thisPage == 'inicio') { echo 'style="display:inline;" '; } ?> ></div>
 		</div>
 		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 		<script src="js/actions.js"></script>

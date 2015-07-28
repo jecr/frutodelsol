@@ -2,24 +2,57 @@
 
 .botella_1 {
 	background: url(../img/mezcal_img.jpg) no-repeat;
-	top: 150px;
-	left: 190px;
-	background-position: -4px -45px;
+	top: 230px;
+	left: 70px;
+	background-position: -4px -35px;
 }
 
 .botella_2 {
 	background: url(../img/mezcal_img.jpg) no-repeat;
-	top: 150px;
-	right: 170px;
-	background-position: -142px -45px;
+	top: 230px;
+	right: 90px;
+	background-position: -116px -35px;
 }
 
 .botella_1, .botella_2 {
 	position: absolute;
-	width: 100px;
-	height: 520px;
+	width: 80.8px;
+	height: 420px;
 	background-size: auto 120%;
 }
+
+
+.content-prod {
+	position: relative;
+	margin: 150px 0 0 245px;
+	width: 530px;
+}
+
+	.mtext1, .mtext2 {
+		font-size: 12px;
+		h2 {
+			font-size: 20px;
+		}
+		h3 {
+			font-size: 14px;
+		}
+	}
+
+	.mtext1 {
+		strong {
+			color: $green;
+		}
+	}
+
+	.mtext2 {
+		strong {
+			color: $yellow;
+		}
+	}
+
+/**
+/* De aquí en adelante no se si se están utilizando los estilos
+*/
 
 .marca {
 	position: absolute;

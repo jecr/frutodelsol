@@ -34,7 +34,8 @@ $green: #98a46b;
 }
 
 	.yllw-ni {
-		top: 452px;
+		display: none;
+		top: 410px;
 		right: 0;
 	}
 
@@ -102,8 +103,8 @@ $green: #98a46b;
 			font-size: 30px;
 		}
 
-		.fb { right: 50px; }
-		.tw { right: 150px; }
+		.fb { left: 200px; }
+		.tw { left: 300px; }
 
 	.botellas {
 		position: absolute;
@@ -139,7 +140,7 @@ $green: #98a46b;
 	.index_cont {
 		position: absolute;
 		width: 750px;
-		top: 181px;
+		top: 140px;
 		left: 240px;
 	}
 

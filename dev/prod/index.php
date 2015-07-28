@@ -58,7 +58,7 @@
 		<div class="store">
 			<img src="img/lasquince.png" alt="Las Quince Letras"><br>
 			<strong>Restaurante “Las Quince Letras”</strong><br>
-			Calle abasolo #300,<br>
+			Calle Abasolo #300,<br>
 			entre Pino Suárez y Av. Juárez
 		</div>
 		<div class="store">
