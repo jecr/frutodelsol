@@ -35,7 +35,7 @@ $green: #98a46b;
 
 	.yllw-ni {
 		display: none;
-		top: 395px;
+		top: 336px;
 		right: 0;
 	}
 
@@ -152,25 +152,26 @@ $green: #98a46b;
 		}
 
 		.gallery {
-			width: 250px;
-			height: 250px;
+			width: 212px;
+			height: 190px;
 			margin-left: 50px;
 			@include user-select(none);
 		}
 
 		.gal_wrap {
-			width: 230px;
+			width: 200px;
 			overflow: hidden;
 		}
 
 			.int_wrap {
-				width: 2284px;
+				width: 1840px;
 			}
 
 			.gallery img {
 				display: inline-block;
 				margin: 0 10px 0 0;
 				cursor: pointer;
+				width: 190px;
 			}
 
 				.left,.right {
@@ -181,13 +182,13 @@ $green: #98a46b;
 					cursor: pointer;
 				}
 
-				.left { background: url(../img/left.png) no-repeat; top: 50+47px; }
-				.right { background: url(../img/right.png) no-repeat; top: 50+68px; }
+				.left { background: url(../img/left.png) no-repeat; top: 25+47px; }
+				.right { background: url(../img/right.png) no-repeat; top: 25+68px; }
 
 
 		.slogan {
-			width: 450px;
-			height: 105px;
+			width: 390px;
+			height: 91px;
 			margin-top: 50px;
 			background: url(../img/slogan.png);
 			background-size: 100%;

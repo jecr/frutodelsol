@@ -1,18 +1,18 @@
 $(document).ready(function(){
-	var ancho = 244.5;
+	var ancho = 204.5;
 	var movi = 0;
 	$('.left').on('click',function(){
 		if (movi < 0) {
 			movi = movi + ancho;
-			$('.int_wrap').animate({
+			$('.int_wrap').stop().animate({
 				marginLeft: movi
 			},500);
 		};
 	});
 	$('.right').on('click',function(){
-		if (movi > -1956) {
+		if (movi > -1500) {
 			movi = movi - ancho;
-			$('.int_wrap').animate({
+			$('.int_wrap').stop().animate({
 				marginLeft: movi
 			},500);
 		};
