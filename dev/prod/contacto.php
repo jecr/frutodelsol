@@ -55,6 +55,7 @@
 
 	include 'includes/header.php';
 ?>
+	<div class="botellas"></div>
 	<section class="content_area">
 		<?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
 		<div class="thanks">
