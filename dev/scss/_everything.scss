@@ -98,9 +98,11 @@ $green: #98a46b;
 		.fb,.tw {
 			position: absolute;
 			top: 5px;
-			cursor: pointer;
-			color: $yellow;
-			font-size: 30px;
+			z-index: 1;
+			a {
+				color: $yellow;
+				font-size: 30px;
+			}
 		}
 
 		.fb { left: 265px; }
@@ -314,38 +316,21 @@ $green: #98a46b;
 /*----------------------------------------------------------------------------------Quienes Somos*/
 
 .text_area {
+	font-family: Helvetica, Arial, sans-serif;
 	position: absolute;
 	width: 750px;
 	height: 400px;
 	left: 241px;
 	top: 181px;
-	background: $green;
 }
 
-	.text_area_back {
-		position: absolute;
-		width: 200px;
-		height: 400px;
-		right: 0;
-		top: 181px;
-		background: $green;
-	}
-
-	.area_int {
-		padding: 45px;
-	}
-
 		.area_title {
-			font-family: Helvetica, Arial, sans-serif;
-			color: #ffe100;
+			
 			font-size: 18px;
-			font-weight: 200;
+			font-weight: bolder;
 		}
 
 		.area_text {
-			font-family: Helvetica, Arial, sans-serif;
-			color: #fff;
-			font-weight: 100;
 			font-size: 12px;
 		}
 
