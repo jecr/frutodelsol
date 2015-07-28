@@ -17,8 +17,8 @@
 			<div class="content">
 				<a href="index.php"><div class="logo"></div></a>
 				<div class="yllw">
-					<div class="fb"><i class="fa fa-twitter"></i></div>
-					<div class="tw"><i class="fa fa-facebook"></i></div>
+					<div class="tw"><i class="fa fa-twitter"></i></div>
+					<div class="fb"><i class="fa fa-facebook"></i></div>
 				</div>
 				<div class="menu">
 					<ul>
